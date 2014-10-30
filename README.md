@@ -1,2 +1,2 @@
-potatoSquard
+potatoSquad
 ============
