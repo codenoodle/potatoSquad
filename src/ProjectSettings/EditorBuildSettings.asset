@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/menu.unity
+    path: Assets/Dev scenes/menu.unity
   - enabled: 1
-    path: Assets/jaf_DEV.unity
+    path: Assets/Dev scenes/jaf_DEV.unity
+  - enabled: 1
+    path: Assets/Dev scenes/characterMovement_DEV.unity
