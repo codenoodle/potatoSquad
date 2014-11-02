@@ -4,60 +4,29 @@ using System.Collections;
 public class playerMovement : MonoBehaviour {
 
 		// Vars
-		private 	float 		movementSpeed;
-		private 	AudioClip   jumpsound;
-		private 	bool 		Grounded;
-
+		private 	float 				movementSpeed;
+		private 	AudioClip  			jumpsound;
+		private 	bool 				Grounded = false;
 		// Modifyers
-		private 	float 		WalkingModifier = 50f;
-		private 	float		sprintModifier = 2f; // Default sprint modifier for movement
-		private 	float		sprintSpeed = 1f;
-		private 	float 		jumpModifier = 20f;
-
-		// Triggers
-	private GameObject collisionTrigger;
+		private 	float 				WalkingModifier = 50f;
+		private 	float				sprintModifier = 2f; // Default sprint modifier for movement
+		private 	float				sprintSpeed = 1f;
+		private 	float 				jumpModifier = 20f;
 		
 
-		void OnTriggerEnter(Collider other)
-		{
-		Debug.Log (other.name);
-		}
 
-		
-		void Start()
-	{
-		collisionTrigger = GameObject.Find("playerCollisionTrigger");
-
-		Collider test = collisionTrigger.collider;
-		Debug.Log (test.isTrigger);
+	void OnTriggerEnter(Collider other) {
 		Grounded = true;
 	}
 
-
-
-	/*
-
-	void OnCollisionExit(Collision Collision) {
-		// Player is in the air
-		Debug.Log ("In air");
+	void OnTriggerExit(Collider other) {
 		Grounded = false;
-		rigidbody.drag = 1;
-	} 
-
-	void OnCollisionEnter(Collision Collision) {
-		// Player is touching the ground
-		Grounded = true;
-		Debug.Log ("Grounded");
-		rigidbody.drag = 3;
-	} 
-
-	*/
+	}
 	
-	// Update is called once per frame
+	
 	void Update () 
 		{
 
-		
 				bool forward = Input.GetButton ("Forward");
 				bool backwards = Input.GetButton ("Backwards");
 				bool left = Input.GetButton ("Left");
@@ -72,10 +41,14 @@ public class playerMovement : MonoBehaviour {
 						sprintSpeed = 1f;
 				}
 				
-				if (Grounded) {
+				
+
+		if (Grounded) {
 						movementSpeed = WalkingModifier;
+			Debug.Log ("Grounded");
 				} else {
-						movementSpeed = WalkingModifier / 4;
+						movementSpeed = WalkingModifier / 3.5f;
+			Debug.Log ("Airborne");
 				}
 	
 				if (forward) {
@@ -94,13 +67,10 @@ public class playerMovement : MonoBehaviour {
 				if (left) {
 						rigidbody.AddForce (-transform.right * movementSpeed * sprintSpeed, ForceMode.Force);
 				}
-				if (jump && Grounded) {
+			if (jump ) {
 						rigidbody.AddForce (transform.up * jumpModifier, ForceMode.VelocityChange);
 						audio.PlayOneShot(jumpsound);
 				}
-
-
-
-		
+	
 	}
 }
