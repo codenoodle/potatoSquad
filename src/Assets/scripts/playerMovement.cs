@@ -5,11 +5,11 @@ public class playerMovement : MonoBehaviour {
 
 		// Vars
 		private 	float 				movementSpeed;
-		private 	AudioClip  			jumpsound;
+		public 		AudioClip  			jumpsound;
 		private 	bool 				Grounded = false;
 		// Modifyers
-		private 	float 				WalkingModifier = 50f;
-		private 	float				sprintModifier = 2f; // Default sprint modifier for movement
+		public	 	float 				WalkingModifier = 50f;
+		public	 	float				sprintModifier = 2f; // Default sprint modifier for movement
 		private 	float				sprintSpeed = 1f;
 		private 	float 				jumpModifier = 20f;
 		
@@ -45,10 +45,8 @@ public class playerMovement : MonoBehaviour {
 
 		if (Grounded) {
 						movementSpeed = WalkingModifier;
-			Debug.Log ("Grounded");
 				} else {
 						movementSpeed = WalkingModifier / 3.5f;
-			Debug.Log ("Airborne");
 				}
 	
 				if (forward) {
@@ -67,7 +65,7 @@ public class playerMovement : MonoBehaviour {
 				if (left) {
 						rigidbody.AddForce (-transform.right * movementSpeed * sprintSpeed, ForceMode.Force);
 				}
-			if (jump ) {
+			if (jump && Grounded) {
 						rigidbody.AddForce (transform.up * jumpModifier, ForceMode.VelocityChange);
 						audio.PlayOneShot(jumpsound);
 				}

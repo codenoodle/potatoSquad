@@ -4,7 +4,7 @@ using System.Collections;
 public class menu : MonoBehaviour {
 
 	public void startGame() {
-		Application.LoadLevel ("jaf_DEV");
+		Application.LoadLevel ("characterMovement_DEV");
 		}
 
 	public void quitGame() {
