@@ -12,28 +12,86 @@ Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\Assemb
 Loading C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.037 seconds
+- Completed reload, in  0.040 seconds
 desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\System.Core.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\System.dll (this message is harmless)
-UnloadTime: 6.554694 ms
-System memory in use before: 42.1 MB.
+Terrain splat 6 is null.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Terrain/SplatDatabase.cpp Line: 140)
+
+UnloadTime: 14.936995 ms
+System memory in use before: 46.2 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 28.0 MB.
+System memory in use after: 32.4 MB.
 
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 192.
-Total: 5.965998 ms (FindLiveObjects: 0.016393 ms CreateObjectMapping: 0.010831 ms MarkObjects: 0.144319 ms  DeleteObjects: 5.187608 ms)
-
-WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-UnloadTime: 1.920360 ms
-System memory in use before: 42.2 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 30.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 254.
-Total: 5.641352 ms (FindLiveObjects: 0.046545 ms CreateObjectMapping: 0.028102 ms MarkObjects: 0.446718 ms  DeleteObjects: 3.581062 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 262.
+Total: 6.327255 ms (FindLiveObjects: 0.048887 ms CreateObjectMapping: 0.028395 ms MarkObjects: 0.412468 ms  DeleteObjects: 4.278084 ms)
 
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+
+impact
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+bulletScript:OnTriggerEnter(Collider) (at C:\Users\Jaf\Desktop\potatoSquad\src\Assets\scripts\bulletScript.cs:10)
+ 
+(Filename: C Line: 0)
+

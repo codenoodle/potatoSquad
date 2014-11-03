@@ -5,12 +5,12 @@ public class bulletScript : MonoBehaviour
 {
 	public AudioClip impact;
 	void OnTriggerEnter(Collider other) {
-		AudioSource.PlayClipAtPoint(impact, transform.position);
+		AudioSource.PlayClipAtPoint(impact, transform.position, 0.5f);
 		Destroy (gameObject);
 		Debug.Log ("impact");
 	}
 	void Start()
 	{
-		Destroy (gameObject, 3.5f);
+		Destroy (gameObject, 8f);
 	}
 }
