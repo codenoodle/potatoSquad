@@ -154,7 +154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &580932247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2036986135}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 9, y: 334}
@@ -460,7 +460,7 @@ AudioSource:
   m_GameObject: {fileID: 1271303793}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 2ce314b3d8dd06e47b1d1e4a284815ae, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0a9572dabb6b4dc42a8387b6d73d0fc2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: .300000012
   m_Pitch: 1
@@ -541,7 +541,7 @@ RectTransform:
   m_Children:
   - {fileID: 1713773126}
   m_Father: {fileID: 2036986135}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -2.00006104, y: -303}
@@ -860,7 +860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1744347687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -873,7 +873,7 @@ RectTransform:
   m_Children:
   - {fileID: 1963835803}
   m_Father: {fileID: 2036986135}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -2.00006104, y: -161.000015}
@@ -1169,7 +1169,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2036986135}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 11, y: 209}
@@ -1420,10 +1420,10 @@ RectTransform:
   m_Children:
   - {fileID: 1749722231}
   - {fileID: 580932247}
-  - {fileID: 1744347687}
   - {fileID: 1280048351}
   - {fileID: 751130112}
   - {fileID: 1892414577}
+  - {fileID: 1744347687}
   m_Father: {fileID: 1980881878}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}

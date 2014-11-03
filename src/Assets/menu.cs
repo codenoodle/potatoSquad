@@ -2,9 +2,11 @@
 using System.Collections;
 
 public class menu : MonoBehaviour {
-
+	void Start(){
+		Screen.showCursor = true;
+	}
 	public void startGame() {
-		Application.LoadLevel ("characterMovement_DEV");
+		Application.LoadLevel ("playtest_DEV");
 		}
 
 	public void quitGame() {

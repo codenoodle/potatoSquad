@@ -12,18 +12,28 @@ Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\Assemb
 Loading C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.039 seconds
+- Completed reload, in  0.037 seconds
 desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\System.Core.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
 Platform assembly: C:\Users\Jaf\Desktop\potatoSquad\src\Test_Data\Managed\System.dll (this message is harmless)
-UnloadTime: 16.468557 ms
-System memory in use before: 33.0 MB.
+UnloadTime: 6.554694 ms
+System memory in use before: 42.1 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 17.0 MB.
+System memory in use after: 28.0 MB.
 
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 178.
-Total: 4.894870 ms (FindLiveObjects: 0.020198 ms CreateObjectMapping: 0.017857 ms MarkObjects: 0.215162 ms  DeleteObjects: 3.574037 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 192.
+Total: 5.965998 ms (FindLiveObjects: 0.016393 ms CreateObjectMapping: 0.010831 ms MarkObjects: 0.144319 ms  DeleteObjects: 5.187608 ms)
 
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+UnloadTime: 1.920360 ms
+System memory in use before: 42.2 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 30.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 254.
+Total: 5.641352 ms (FindLiveObjects: 0.046545 ms CreateObjectMapping: 0.028102 ms MarkObjects: 0.446718 ms  DeleteObjects: 3.581062 ms)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported

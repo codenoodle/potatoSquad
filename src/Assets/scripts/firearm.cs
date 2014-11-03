@@ -6,7 +6,7 @@ public class firearm : MonoBehaviour
 	public Rigidbody bulletPrefab;
 	public Transform barrelEnd;
 	public AudioClip firesound;
-	public int bulletSpeed = 2000;
+	public int bulletSpeed = 3000;
 	
 	void Update ()
 	{
