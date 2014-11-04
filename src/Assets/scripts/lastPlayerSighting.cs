@@ -9,6 +9,7 @@ public class lastPlayerSighting : MonoBehaviour {
 
 	// DEV 
 	public bool spotPlayerNow = false;
+	public bool chasePlayerNow = false;
 
 	void Awake()
 	{
@@ -21,6 +22,11 @@ public class lastPlayerSighting : MonoBehaviour {
 		if (spotPlayerNow) {
 			position = player.transform.position;
 			spotPlayerNow = false;
+		}
+
+		if (chasePlayerNow) {
+			position = player.transform.position;
+
 		}
 
 		}
