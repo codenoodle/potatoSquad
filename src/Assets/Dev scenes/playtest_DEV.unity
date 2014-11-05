@@ -73,7 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-  m_NavMesh: {fileID: 0}
+  m_NavMesh: {fileID: 19400000, guid: ba1b4cea4665fe64c9f0e1a05bfb37e7, type: 2}
 --- !u!1001 &69833000
 Prefab:
   m_ObjectHideFlags: 0
@@ -641,6 +641,8 @@ GameObject:
   - 65: {fileID: 984995197}
   - 54: {fileID: 984995196}
   - 114: {fileID: 984995195}
+  - 114: {fileID: 984995202}
+  - 195: {fileID: 984995203}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -660,7 +662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PersonalPlayerLastPosition: {x: 1000, y: 1000, z: 1000}
-  spotPlayerNow: 1
 --- !u!54 &984995196
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -739,6 +740,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &984995202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984995194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efa72ea3edf81b4dbe0dab48cdf4ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1000, y: 1000, z: 1000}
+  resetPosition: {x: 1000, y: 1000, z: 1000}
+  spotPlayerNow: 0
+  chasePlayerNow: 0
+--- !u!195 &984995203
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984995194}
+  m_Enabled: 1
+  m_Radius: .5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: .5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1005931674
 GameObject:
   m_ObjectHideFlags: 0

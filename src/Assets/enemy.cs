@@ -6,8 +6,6 @@ public class enemy : MonoBehaviour {
 	// Default pos
 	public Vector3 PersonalPlayerLastPosition = new Vector3(1000f,1000f,1000f);
 
-	// DEV 
-	public bool spotPlayerNow = false;
 
 	private gameController game;
 	private lastPlayerSighting globalPlayerSighting;
@@ -29,11 +27,7 @@ public class enemy : MonoBehaviour {
 			PersonalPlayerLastPosition = globalPlayerSighting.position;
 			navAgent.SetDestination(PersonalPlayerLastPosition);
 		}
-
-		if (spotPlayerNow) {
-			PersonalPlayerLastPosition = player.transform.position;
-			spotPlayerNow = false;
-		}
+		
 
 
 	}
