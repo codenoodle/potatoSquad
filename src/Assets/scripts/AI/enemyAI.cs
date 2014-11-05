@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class enemy : MonoBehaviour {
+public class enemyAI : MonoBehaviour {
 
 	// Default pos
 	public Vector3 PersonalPlayerLastPosition = new Vector3(1000f,1000f,1000f);
